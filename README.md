@@ -31,13 +31,7 @@ The Twitter API is used to collect data from Twitter. The data collected from th
 git clone https://github.com/elementrix05/twitter-etl-airflow-project.git
 ```
 
-2. Install the required packages
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Create a `config.py` file in the root directory of the project and add the following variables:
+2. Create a `config.py` file in the root directory of the project and add the following variables:
 
 ```python
 AccessKey = "[Your Twitter API key]"
@@ -50,7 +44,7 @@ KEY = "[Your AWS access key]"
 SECRET = "[Your AWS secret key]"
 ```
 
-4. Update the `airflow.cfg` file to point to your `config.py` file and set the appropriate S3 bucket name.
+3. Update the `airflow.cfg` file to point to your `config.py` file and set the appropriate S3 bucket name.
 
 ## Usage
 
