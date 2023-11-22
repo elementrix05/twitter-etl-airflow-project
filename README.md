@@ -28,7 +28,7 @@ The Twitter API is used to collect data from Twitter. The data collected from th
 1. Clone the repository
 
 ```bash
-git clone https://github.com/kishlayjeet/Twitter-Data-Pipeline-using-Airflow-and-AWS-S3.git
+git clone https://github.com/elementrix05/twitter-etl-airflow-project.git
 ```
 
 2. Install the required packages
